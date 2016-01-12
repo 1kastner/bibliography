@@ -1,6 +1,7 @@
 #bash script
 
 #compile
+echo add  `git ls-files *[^bibliography].bib` to bibliography.bib
 cat `find *[^bibliography].bib`  > bibliography.bib
 
 #and distribute
